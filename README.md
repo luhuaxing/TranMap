@@ -1,5 +1,5 @@
 # TranMap
-An Test Framework Based on MapWinGIS+MFC
+An Test Framework Based on MapWinGIS + MFC
 
 MapWinGIS is an outstanding open-source GIS development package for the Windows platform. It is based on ActiveX technology and provides comprehensive functionalities for map visualization, vector/raster layer management, and spatial analysis.
 
