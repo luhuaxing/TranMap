@@ -12,6 +12,8 @@ TranMap is provided without an open-source license, and is intended solely for l
 
 (1) Load Shapefile Test
 <img width="1280" height="675" alt="image" src="https://github.com/user-attachments/assets/cd241203-639f-47aa-a31a-624ace213b31" />
+<img width="1280" height="675" alt="image" src="https://github.com/user-attachments/assets/ea36e4be-7e89-4432-9035-eb07506674d6" />
+
 (2) Load Image File Test
 <img width="1166" height="720" alt="image" src="https://github.com/user-attachments/assets/8d834e86-8ed5-45ef-a716-5b439a8874b3" />
 
