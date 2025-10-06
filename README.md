@@ -5,7 +5,7 @@ MapWinGIS is an outstanding open-source GIS development package for the Windows 
 
 Due to the limitations of commercial GIS development platforms—such as being heavyweight, licensing restrictions, version dependency, and cross-platform constraints—I began introducing open-source GIS platforms into my undergraduate course “GIS Software System Design and Development” and graduate course “GIS Development and Applications” starting in 2016. Since then, I have been engaged in teaching, research, and practical work related to open-source GIS.
 
-In recent years, after a thorough study and analysis of the MapWinGIS source code, I spent about a month performing a complete migration of its core components. Specifically, I removed the original ActiveX framework and integrated it with the classic MFC framework, resulting in a new version named TranMap 1.0. Users can download TranMap 1.0 and run it directly in Visual Studio.
+In recent years, after a thorough study and analysis of the MapWinGIS source code, I spent about a month performing a complete migration of its core components. Specifically, I removed the original ActiveX framework and integrated it with the classic MFC framework, resulting in a new version named TranMap 1.0. Users can download TranMap 1.0 and compile and run it directly in Visual Studio.
 
 
 TranMap is provided without an open-source license, and is intended solely for learning and testing purposes. However, in accordance with the Mozilla Public License 2.0 (MPL-2.0) under which MapWinGIS is released, anyone using TranMap 1.0 for commercial or applied projects must comply with the terms of the MPL-2.0 license.
