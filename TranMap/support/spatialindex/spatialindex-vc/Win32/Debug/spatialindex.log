@@ -1,0 +1,94 @@
+﻿Build started 2018/2/11 9:56:25.
+     1>Project "E:\TranMap\support\spatialindex\spatialindex-vc\spatialindex.vcxproj" on node 2 (build target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>InitializeBuildStatus:
+         Touching "E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\spatialindex-mw.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IE:\TranMap\support\spatialindex\include /Z7 /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D SPATIALINDEX_CREATE_DLL /D _UNICODE /D UNICODE /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\\" /Fd"E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\mvrtree\Index.cc ..\src\mvrtree\Leaf.cc ..\src\mvrtree\MVRTree.cc ..\src\mvrtree\Node.cc ..\src\mvrtree\Statistics.cc ..\src\rtree\BulkLoader.cc ..\src\rtree\RTree.cc ..\src\spatialindex\LineSegment.cc ..\src\spatialindex\MovingPoint.cc ..\src\spatialindex\MovingRegion.cc ..\src\spatialindex\Point.cc ..\src\spatialindex\Region.cc ..\src\spatialindex\SpatialIndexImpl.cc ..\src\spatialindex\TimePoint.cc ..\src\spatialindex\TimeRegion.cc ..\src\storagemanager\Buffer.cc ..\src\storagemanager\DiskStorageManager.cc ..\src\storagemanager\MemoryStorageManager.cc ..\src\storagemanager\RandomEvictionsBuffer.cc ..\src\tools\rand48.cc ..\src\tools\Tools.cc ..\src\tprtree\TPRTree.cc
+         Index.cc
+         Leaf.cc
+         MVRTree.cc
+         Node.cc
+         Statistics.cc
+         BulkLoader.cc
+         RTree.cc
+         LineSegment.cc
+         MovingPoint.cc
+         MovingRegion.cc
+         Point.cc
+         Region.cc
+         SpatialIndexImpl.cc
+         TimePoint.cc
+         TimeRegion.cc
+         Buffer.cc
+         DiskStorageManager.cc
+         MemoryStorageManager.cc
+     1>..\src\storagemanager\MemoryStorageManager.cc(67): warning C4244: 'argument' : conversion from 'const SpatialIndex::id_type' to 'unsigned int', possible loss of data
+     1>..\src\storagemanager\MemoryStorageManager.cc(95): warning C4244: 'argument' : conversion from 'SpatialIndex::id_type' to 'unsigned int', possible loss of data
+     1>..\src\storagemanager\MemoryStorageManager.cc(103): warning C4244: 'argument' : conversion from 'SpatialIndex::id_type' to 'unsigned int', possible loss of data
+     1>..\src\storagemanager\MemoryStorageManager.cc(114): warning C4244: 'argument' : conversion from 'SpatialIndex::id_type' to 'unsigned int', possible loss of data
+     1>..\src\storagemanager\MemoryStorageManager.cc(123): warning C4244: 'argument' : conversion from 'const SpatialIndex::id_type' to 'unsigned int', possible loss of data
+     1>..\src\storagemanager\MemoryStorageManager.cc(131): warning C4244: 'argument' : conversion from 'const SpatialIndex::id_type' to 'unsigned int', possible loss of data
+         RandomEvictionsBuffer.cc
+         rand48.cc
+         Generating Code...
+         Compiling...
+         Tools.cc
+         TPRTree.cc
+         Generating Code...
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IE:\TranMap\support\spatialindex\include /Z7 /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D SPATIALINDEX_CREATE_DLL /D _UNICODE /D UNICODE /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\Index1.obj" /Fd"E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\rtree\Index.cc
+         Index.cc
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IE:\TranMap\support\spatialindex\include /Z7 /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D SPATIALINDEX_CREATE_DLL /D _UNICODE /D UNICODE /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\Leaf1.obj" /Fd"E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\rtree\Leaf.cc
+         Leaf.cc
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IE:\TranMap\support\spatialindex\include /Z7 /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D SPATIALINDEX_CREATE_DLL /D _UNICODE /D UNICODE /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\Node1.obj" /Fd"E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\rtree\Node.cc
+         Node.cc
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IE:\TranMap\support\spatialindex\include /Z7 /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D SPATIALINDEX_CREATE_DLL /D _UNICODE /D UNICODE /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\Statistics1.obj" /Fd"E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\rtree\Statistics.cc
+         Statistics.cc
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IE:\TranMap\support\spatialindex\include /Z7 /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D SPATIALINDEX_CREATE_DLL /D _UNICODE /D UNICODE /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\Index2.obj" /Fd"E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\tprtree\Index.cc
+         Index.cc
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IE:\TranMap\support\spatialindex\include /Z7 /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D SPATIALINDEX_CREATE_DLL /D _UNICODE /D UNICODE /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\Leaf2.obj" /Fd"E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\tprtree\Leaf.cc
+         Leaf.cc
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IE:\TranMap\support\spatialindex\include /Z7 /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D SPATIALINDEX_CREATE_DLL /D _UNICODE /D UNICODE /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\Node2.obj" /Fd"E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\tprtree\Node.cc
+         Node.cc
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IE:\TranMap\support\spatialindex\include /Z7 /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D SPATIALINDEX_CREATE_DLL /D _UNICODE /D UNICODE /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\Statistics2.obj" /Fd"E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\tprtree\Statistics.cc
+         Statistics.cc
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"E:\TranMap\support\spatialindex\..\lib\Win32\spatialindex-mw.lib" /NOLOGO "E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\Index.obj"
+         "E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\Leaf.obj"
+         "E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\MVRTree.obj"
+         "E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\Node.obj"
+         "E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\Statistics.obj"
+         "E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\BulkLoader.obj"
+         "E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\RTree.obj"
+         "E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\LineSegment.obj"
+         "E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\MovingPoint.obj"
+         "E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\MovingRegion.obj"
+         "E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\Point.obj"
+         "E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\Region.obj"
+         "E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\SpatialIndexImpl.obj"
+         "E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\TimePoint.obj"
+         "E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\TimeRegion.obj"
+         "E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\Buffer.obj"
+         "E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\DiskStorageManager.obj"
+         "E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\MemoryStorageManager.obj"
+         "E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\RandomEvictionsBuffer.obj"
+         "E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\rand48.obj"
+         "E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\Tools.obj"
+         "E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\TPRTree.obj"
+         "E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\Index1.obj"
+         "E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\Leaf1.obj"
+         "E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\Node1.obj"
+         "E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\Statistics1.obj"
+         "E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\Index2.obj"
+         "E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\Leaf2.obj"
+         "E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\Node2.obj"
+         "E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\Statistics2.obj"
+         spatialindex.vcxproj -> E:\TranMap\support\spatialindex\..\lib\Win32\spatialindex-mw.lib
+       FinalizeBuildStatus:
+         Deleting file "E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\spatialindex-mw.unsuccessfulbuild".
+         Touching "E:\TranMap\support\spatialindex\spatialindex-vc\Win32\Debug\spatialindex-mw.lastbuildstate".
+     1>Done Building Project "E:\TranMap\support\spatialindex\spatialindex-vc\spatialindex.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.92

@@ -1,0 +1,35 @@
+#include "stdafx.h"
+#include "Map.h"
+
+BEGIN_MESSAGE_MAP(CMapView, CWnd)
+	//{{AFX_MSG_MAP(CMapView)
+	// NOTE - ClassWizard will add and remove message map entries
+	//    DO NOT EDIT what you see in these blocks of generated code !
+	ON_WM_CREATE()
+	ON_WM_SIZE()
+	ON_WM_DROPFILES()
+	ON_WM_LBUTTONDOWN()
+	ON_WM_LBUTTONDBLCLK()
+	ON_WM_LBUTTONUP()
+	ON_WM_MOUSEMOVE()
+	ON_WM_RBUTTONDOWN()
+	ON_WM_RBUTTONDBLCLK()
+	ON_WM_RBUTTONUP()
+	ON_WM_SETCURSOR()
+	ON_WM_TIMER()
+	ON_WM_MBUTTONUP()
+	ON_WM_MOUSEWHEEL()
+	ON_WM_KEYDOWN()
+	ON_WM_KEYUP()
+	ON_WM_MOUSELEAVE()
+
+	//ON_WM_CHAR()
+	//}}AFX_MSG_MAP
+
+	ON_WM_PAINT()
+	ON_COMMAND(ID_FILE_OPEN, &CMapView::OnFileOpen)
+	ON_COMMAND(ID_32772, &CMapView::On32772)
+	ON_COMMAND(ID_32773, &CMapView::On32773)
+END_MESSAGE_MAP()
+
+
